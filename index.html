@@ -6,53 +6,79 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="styles/main.css">
-    <header>
-        <div>
-            <h1>codiGO</h1>
-            <p></p>
-        </div>
-        <div>
-            <h1>Sobre mi</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit sint, libero ratione cum porro
-                possimus exercitationem et quia rerum reiciendis tempore veritatis. Itaque earum quam minus quos
-                voluptates nulla nobis numquam, culpa optio facere? Tenetur tempore velit enim saepe modi, dolorem rerum
-                distinctio earum facilis doloremque omnis maxime non illo!</p>
-        </div>
-        <button>Ver cv</button>
-    </header>
-    <main>
-        <section>
-            <div>
-                <h1>Portafolio</h1>
-                <div>
-                    <img src="./IMG/img-2.png" alt="">
-                    <img src="./IMG/img-3.png" alt="">
-                    <img src="./IMG/img-4.png" alt="">
-                    <img src="./IMG/img-5.png" alt="">
-                    <img src="./IMG/img-6.png" alt="">
-                    <img src="./IMG/img-7.png" alt="">
-                    <img src="./IMG/img-8.png" alt="">
-                    <img src="./IMG/img-9.png" alt="">
-                </div>
-            </div>
-        </section>
-        <section>
-            <div>
-                <h1>Clientes</h1>
-                <div>
-                    <img src="./IMG/img-footer-1.png" alt="">
-                    <img src="./IMG/img-footer-2.png" alt="">
-                    <img src="./IMG/img-footer-3.png" alt="">
-                    <img src="./IMG/img-footer-4.png" alt="">
-                </div>
-            </div>
-        </section>
-    </main>
+    <link rel="stylesheet" href="./styles/main.css">
 </head>
 
 <body>
-
+    <header>
+        <h1>codiGO</h1>
+        <div class="about-me">
+            <p>Hola mi nombre es Sebasian Yabiku</p>
+        </div>
+    </header>
+    <main>
+        <section class="my-info">
+            <h1>Sobre mi</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum corporis eius est. Tenetur quo explicabo
+                vel, optio temporibus quas unde harum. Eveniet laboriosam nostrum accusamus. Facilis perferendis
+                incidunt eaque pariatur consequuntur accusantium laboriosam nemo officiis. Iste laboriosam ducimus
+                aperiam pariatur.</p>
+            <button>Ver CV</button>
+        </section>
+        <section class="skills-container">
+            <h1>Mis skills</h1>
+            <div class="line1">
+                <p>HTML</p>
+                <progress max="100" value="75"></progress>
+            </div>
+            <div class="line1">
+                <p>CSS</p>
+                <progress max="100" value="20"></progress>
+            </div>
+            <div class="line1">
+                <p>Javascript</p>
+                <progress max="100" value="60"></progress>
+            </div>
+            <div class="line1">
+                <p>Vue</p>
+                <progress max="100" value="80"></progress>
+            </div>
+            <div class="line1">
+                <p>Flexbox</p>
+                <progress max="100" value="90"></progress>
+            </div>
+            <div class="line1">
+                <p>CSS Grid</p>
+                <progress max="100" value="40"></progress>
+            </div>
+        </section>
+        <section class="portafolio">
+            <h1>Portafolio</h1>
+            <div>
+                <img src="./IMG/main.png" alt="">
+            </div>
+        </section>
+        <section class="clientes">
+            <h1>Clientes</h1>
+            <div>
+                <img src="./IMG/FOOTER.png" alt="">
+            </div>
+        </section>
+        <footer>
+            <h1>Contacto</h1>
+            <form action="">
+                <input type="text" placeholder=" Nombre">
+                <input type="text" placeholder=" Apellido">
+                <br>
+                <input type="email" placeholder=" email">
+                <input type="telephone" placeholder=" Telefono">
+                <br>
+                <textarea name="" id="" cols="30" rows="10" placeholder="description"></textarea>
+                <br>
+                <button>Enviar</button>
+            </form>
+        </footer>
+    </main>
 </body>
 
 </html>
