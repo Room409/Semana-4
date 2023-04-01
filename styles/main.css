@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    width: 1700px;
+}
+header{
+    background-image:url(../IMG/img-main.png);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    height: 950px;
+}
+
+header h1{
+    color:white;
+    text-align: center;
+    font-size: 70px;
+}
+
+.about-me{
+    background-color: rgba(114, 153, 254, 0.5);
+    display: block;
+    margin-top: 370px;
+    margin-left: 400px;
+    height: 117px;
+    width: 370px;
+    border-radius: 10px;
+}   
+
+.about-me p{
+    font-weight: bold;
+    padding:12px 8px ;
+    font-size: 35px;
+    color: white;
+}
+
+.my-info{
+    background-color: #7299FE;
+    height: 500px;
+    padding: 50px;
+}
+
+.my-info h1{
+    color: #1D06A7;
+    font-size: 50px;
+    text-align: center;
+}
+
+.my-info p{
+    font-size: 30px;
+    color: white;
+    margin-top: 30px;
+    line-height: 40px;
+}
+
+.my-info button{
+    border: none;
+    background-color: #D16FFF;
+    height: 70px;
+    width: 190px;
+    margin-top: 30px;
+    font-size: 20px;
+    border-radius: 30px;
+    color: white;
+    font-size: 27px;
+    font-weight: bold;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.skills-container{
+    background-color: #9022FF;
+    padding-top: 40px;
+    padding-left: 20px;
+    height: 600px;
+}
+
+.skills-container h1{
+    text-align: center;
+    padding-top: 20px;
+    color: #26CC4B;
+    font-size: 50px;
+}
+
+.line-1{
+    display: inline-block;
+}
+
+.skills-container div{
+    display: inline-block;
+    height: 60px;
+    padding-top: 50px;
+}
+
+.skills-container p{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+.skills-container progress{
+    width: 800px;
+    margin: 10px;
+    height: 50px;
+}
+
+.portafolio{
+   background-color: #FFD233;
+   height: 500px;
+}
+
+.portafolio h1{
+    text-align: center;
+    padding-top: 30px;
+    color: #00AD84;
+    font-size: 50px;
+    font-weight: bold;
+}
+.portafolio img{
+    width: 800px;
+    display: block;
+    margin: 40px auto;
+}
+.clientes{
+    height: 300px;
+    background-color: #3F4E62;
+}
+.clientes h1{
+    text-align: center;
+    padding-top: 30px;
+    color: #ADFF28;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.clientes img{
+    display: block;
+    margin: 0 auto;
+    height: 170px;
+}
+
+footer{
+    background-color: #1687A0;
+    height: 700px;
+    text-align: center;
+}
+
+footer h1{
+    color: red;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20PX;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+footer input{
+    height: 70px;
+    width: 500px;
+    margin:10px 10px 30px 10px;
+    font-size: 20px;
+}
+
+footer input::placeholder{
+    text-indent: 10px;
+}
+
+footer textarea{
+    width: 1025px;
+}
+
+footer button{
+    font-size: 30px;
+    height: 80px;
+    width: 150px;
+    background-color: rgb(58, 58, 185);
+    border: none;
+    color: white;
+    margin-top: 40px;
+    font-weight: bold;
+}
